@@ -4,9 +4,21 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.bit2020</groupId>
-		<artifactId>servlet-practice</artifactId>
+		<artifactId>servlet-practices</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>emaillist01</artifactId>
 	<packaging>war</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.mariadb.jdbc</groupId>
+			<artifactId>mariadb-java-client</artifactId>
+			<version>2.6.2</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>emaillist01</finalName>
+	</build>
 </project>
