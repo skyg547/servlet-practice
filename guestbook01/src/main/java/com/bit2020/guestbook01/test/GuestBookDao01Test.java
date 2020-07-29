@@ -9,7 +9,7 @@ public class GuestBookDao01Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		testInsert();
+		//testInsert();
 		testSelectList();
 	}
 
@@ -17,7 +17,7 @@ public class GuestBookDao01Test {
 		
 		List<GuestBook01Vo> list = new Guestbook01Dao().findAll();
 		
-		if(list.size() == 2) {
+		if(list.size() != 0 ) {
 			System.out.println("성공");
 			
 		} else {
@@ -30,10 +30,9 @@ public class GuestBookDao01Test {
 		
 		GuestBook01Vo vo = new GuestBook01Vo();
 		
-		vo.setName("ha");
-		vo.setPassword("ha");
-		vo.setMessage("h1");
-		vo.setReg_date("1104");
+		vo.setName("1234");
+		vo.setPassword("1234");
+		vo.setMessage("1234");
 		
 		if (new Guestbook01Dao().insert(vo)) {
 			 System.out.println("성공");
