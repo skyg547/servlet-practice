@@ -9,9 +9,7 @@
 </head>
 <body>
 	<form method="post" action="delete.jsp">
-	<%
-	log(request.getParameter("no"));
-	%>
+	
 	<input type ='hidden' name = 'hiddenno' value = '<%=request.getParameter("no")%>'>
 	<table>
 		<tr>

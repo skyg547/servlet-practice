@@ -7,9 +7,6 @@
 <body>
 	<form method="post" action="/guestbook02/gb">
 	<input type='hidden' name="a" value="delete">
-	<%
-	log(request.getParameter("no"));
-	%>
 	<input type ='hidden' name = 'no' value = '<%=request.getParameter("no")%>'>
 	<table>
 		<tr>
