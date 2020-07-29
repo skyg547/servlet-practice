@@ -2,6 +2,9 @@ package com.bit2020.emaillist.vo;
 
 public class EmaillistVo {
 	private Long no;
+	private String firstName;
+	private String lastName;
+	private String Email;
 	public Long getNo() {
 		return no;
 	}
@@ -26,9 +29,7 @@ public class EmaillistVo {
 	public void setEmail(String email) {
 		Email = email;
 	}
-	private String firstName;
-	private String lastName;
-	private String Email;
+
 	@Override
 	public String toString() {
 		return "EmaillistVo [no=" + no + ", firstName=" + firstName + ", lastName=" + lastName + ", Email=" + Email

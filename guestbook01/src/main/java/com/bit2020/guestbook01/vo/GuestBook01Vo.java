@@ -1,7 +1,7 @@
 package com.bit2020.guestbook01.vo;
 
 public class GuestBook01Vo {
-	private long no;
+	private Long no;
 	private String name;
 	private String password;
 	private String message;

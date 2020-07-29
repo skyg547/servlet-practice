@@ -79,7 +79,7 @@ public class EmaillistDao {
 			
 			stmt = connection.createStatement();
 			// sql 문 작성
-			String sql = "select no, first_name, last_name, email from emaillist";
+			String sql = "select no, first_name, last_name, email from emaillist order by no desc";
 			rs = stmt.executeQuery(sql);
 			
 			while(rs.next()) {
