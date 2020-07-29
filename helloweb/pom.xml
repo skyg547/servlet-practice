@@ -4,23 +4,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.bit2020</groupId>
-		<artifactId>servlet-practice</artifactId>
+		<artifactId>servlet-practices</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>helloweb</artifactId>
 	<packaging>war</packaging>
-	
+
 	<dependencies>
 	</dependencies>
 
 	<build>
 		<finalName>helloweb</finalName>
-		
-		<sourceDirectory>src/main/java</sourceDirectory>
-				
-				
-		<plugins>
-			
-		</plugins>
 	</build>
 </project>
