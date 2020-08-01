@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>_01Servlet</display-name>
+    <servlet-name>_01Servlet</servlet-name>
+    <servlet-class>jstlel._01Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>_01Servlet</servlet-name>
+    <url-pattern>/jstl</url-pattern>
+  </servlet-mapping>
 </web-app>
